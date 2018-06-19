@@ -1,0 +1,213 @@
+
+@font-face {
+	font-family: '隶书';
+	font-weight: normal;
+	font-style: normal;
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+	font-family: '隶书';;
+	color: #7c8d87;
+	background:#f4f4f4 url(../images/bg.gif) repeat top left;
+	
+}
+
+a {
+	color: #31bc86;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #7c8d87;
+}
+
+.container > header {
+	margin: 0 auto;
+	text-align: center;
+	background: rgba(0,0,0,0.01);
+
+}
+
+h1 {
+	font-size:56px;
+	color: #333;
+}
+
+.container > header span {
+	display: block;
+	font-size: 60%;
+	opacity: 0.7;
+	padding: 0 0 0.6em 0.1em;
+}
+
+/* To Navigation Style */
+.codrops-top {
+	background: #fff;
+	background: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+	width: 100%;
+	font-size: 0.69em;
+	line-height: 2.2;
+}
+
+.codrops-top a {
+	text-decoration: none;
+
+	letter-spacing: 0.1em;
+	display: inline-block;
+}
+
+.codrops-top a:hover {
+	background: rgba(255,255,255,0.95);
+}
+
+.codrops-top span.right {
+	float: right;
+}
+
+.codrops-top span.right a {
+	float: left;
+	display: block;
+}
+
+.codrops-icon:before {
+	font-family: 'codropsicons';
+	margin: 0 4px;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+	content: "\e001";
+}
+
+.codrops-icon-prev:before {
+	content: "\e004";
+}
+
+/* Demo Buttons Style */
+.codrops-demos {
+	font-size: 0.8em;
+}
+
+.codrops-demos a {
+	display: inline-block;
+	margin: 0.5em;
+	padding: 0.7em 1.1em;
+	outline: none;
+	border: 2px solid #31bc86;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a.current-demo,
+.codrops-demos a.current-demo:hover {
+	border-color: #7c8d87;
+	color: #7c8d87;
+}
+
+.related {
+	text-align: center;
+	font-size: 1.5em;
+	padding-bottom: 3em;
+}
+
+.right-search
+{
+	background: #003;
+	left:80%;
+	position:relative;
+	width: 364px;
+	height: 66px;
+		
+}
+
+ #QueryInfo{
+	border: solid 1px #CCC;
+	background: #FFFFFF;
+	margin: 10px 10px 0px 10px;
+	padding: 9px;
+	height:50%
+	font-size:16px;
+	width:240px;
+	background: 
+		-webkit-gradient(
+			linear,
+			left top,
+			left 25,
+			from(#FFFFFF),
+			color-stop(4%, #EEEEEE),
+			to(#FFFFFF)
+		);
+	background: 
+		-moz-linear-gradient(
+			top,
+			#FFFFFF,
+			#EEEEEE 1px,
+			#FFFFFF 25px
+			);
+	-moz-box-shadow: 0px 0px 10px #f0f0f0;
+	-webkit-box-shadow: 0px 0px 10px #f0f0f0;
+	box-shadow: 0px 0px 10px #f0f0f0;
+}
+ #QueryInfo:focus{
+	background:#feffef;
+}
+
+
+ #QueryInfoBt {
+	background: #e3e3e3;
+	border: 1px solid #ccc;
+	color: #333;
+	font-family: '隶书';
+	font-size: 14px;
+	font-weight: bold;
+	margin: 5px 0px 30px 0px;
+	padding: 9px;
+	text-align: center;
+	width: 70px;
+	cursor:pointer;
+
+	
+	text-shadow: 0px 1px 0px #fff;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: 0px 0px 2px #fff inset;
+	-webkit-box-shadow: 0px 0px 2px #fff inset;
+	box-shadow: 0px 0px 2px #fff inset;
+}
+#QueryInfoBt:hover {
+	background: #d9d9d9;
+	-moz-box-shadow: 0px 0px 2px #eaeaea inset;
+	-webkit-box-shadow: 0px 0px 2px #eaeaea inset;
+	box-shadow: 0px 0px 2px #eaeaea inset;
+	color: #222;
+}
+.container > header nav form[id = "search-form"] {
+	margin: 0 auto;
+	
+	text-align:right;
+	position:relative;
+	background: rgba(0,0,0,0.01);
+
+}
+
+
+@media screen and (max-width: 25em) {
+
+	.codrops-icon span {
+		display: none;
+	}
+
+}
